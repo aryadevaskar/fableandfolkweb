@@ -1,0 +1,82 @@
+.Client-story{
+background-color: #41241d;
+padding: 4rem 2rem;
+margin-bottom: 1rem;
+}
+.about-client {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem;
+    padding: 0 3.5rem 0 2rem;
+}
+.client-title , .client-content{
+    width: 50%;
+    text-align: justify;
+}
+
+.client-title h1 {
+  font-size: 4.5rem;
+  margin: 0;
+  line-height: 1.1;
+  padding: 1rem;
+}
+.about-client h1{
+    color: #FFFFFF;
+   
+}
+.span-2{
+    color: #FFBB00;
+}
+
+.client-content {
+  width: 50%;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #fffce9;
+  padding-left: 2rem;
+}
+
+@media (max-width: 480px){
+    .Client-story{
+        padding: 5rem 1rem;
+    }
+    .about-client{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.2rem;
+        padding: 0;
+        margin: 0;
+    }
+    .client-title h1{
+        font-size: 4rem;
+        padding: 0;
+        text-align: center;
+    }
+    .client-content , .client-title {
+        font-size: 0.8rem;
+        padding: 0.4rem;
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .hero-content{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1300px){
+    .client-title h1{
+        font-size: 7rem;
+    }
+    .client-content p{
+        font-size: 1.5rem;
+    }
+}

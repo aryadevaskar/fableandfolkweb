@@ -1,0 +1,85 @@
+.Our-story{
+background-color: #41241d;
+padding: 4rem 2rem;
+}
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem;
+    padding: 0 3.5rem 0 2rem;
+}
+.about-title , .about-content{
+    width: 50%;
+    text-align: justify;
+}
+
+.about-title h1 {
+  font-size: 5.5rem;
+  margin: 0;
+  line-height: 1.1;
+  padding: 1rem;
+}
+.about-us h1{
+    color: #FFFFFF;
+   
+}
+.span{
+    color: #FFBB00;
+}
+
+.about-content {
+  width: 50%;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #fffce9;
+  padding-left: 2rem;
+}
+
+@media (max-width: 480px){
+    .Our-story{
+        padding: 6rem 1rem;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.2rem;
+        padding: 0;
+        margin: 0;
+    }
+    .about-title h1{
+        font-size: 4rem;
+        padding: 0;
+        text-align: center;
+    }
+    .about-content , .about-title {
+        font-size: 1rem;
+        padding: 0.4rem;
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .hero-content{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    
+    .about-title h1{
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1300px){
+    .about-title h1{
+        font-size: 7rem;
+    }
+    .about-content p{
+        font-size: 1.45rem;
+    }
+}

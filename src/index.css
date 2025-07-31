@@ -1,0 +1,21 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ html{
+  scroll-behavior: smooth;
+ }
+/* Optional base styles */
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #fef6e0;
+  color: #41241d;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: normal;
+}

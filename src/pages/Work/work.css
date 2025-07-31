@@ -1,0 +1,189 @@
+.Our-work {
+  margin: 4rem;
+}
+
+.project-title {
+  font-size: 7rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 2.4rem;
+}
+
+.work-image iframe {
+  border: 3px solid #41241d;
+  height: 500px;
+  margin-top: 3rem;
+}
+
+
+.fable-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 3rem;
+  color: #3e2219; /* deep brown text */
+}
+
+.our-name,
+.our-story {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.our-name h1,
+.our-story h1 {
+  flex: 0.2 0 8rem; /* fixed width for title */
+  font-size: 3.7rem;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1.2;
+  font-family: 'DM Sans', sans-serif;
+  white-space: nowrap;
+}
+
+.our-name p,
+.our-story p {
+  flex: 1;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 0;
+}
+/* This whole css is valid only until we keep images after we keep images we should re define css for this whole gallery-section*/
+.Gallery-container{
+    margin-top: 3rem;
+}
+.row-1{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.row-1 img{
+    border: 3px solid #41241d;
+    height: 500px;
+    width: 700px;
+}
+.row-2 img{
+    margin-top: 1.6rem;
+    height: 650px;
+    width: 100%;
+    border: 3px solid #41241d;
+}
+.quote-section{
+    display: flex;
+    margin-top: 2rem;
+}
+.quote-section h1{
+    font-size: 7rem;
+}
+.quote-section p{
+    font-size: 2.5rem;
+}
+
+.quote-section button{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    font-size: 1.4rem;
+    background-color: #FFBB00;
+    margin-top: 4rem;
+    font-weight: 500;
+}
+
+@media (max-width : 480px){
+.Our-work{
+  margin: 1.5rem;
+}
+.project-title{
+  font-size: 3.3rem;
+}
+.project-description{
+  font-size: 1.45rem;
+}
+.work-image iframe {
+margin-top: 3rem;
+height: 400px;
+}
+.our-name{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.our-name p{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.our-name h1{
+  flex: 0.2 0 5rem;
+}
+.our-story{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.our-story p{
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.our-story h1{
+  flex: 0.2 0 5rem;
+}
+.row-1{
+  display: flex;
+  flex-direction: column;
+}
+.row-1 img{
+  width: 100%;
+  height: 300px;
+}
+.row-2 img{
+  height: 300px;
+}
+.quote-section h1{
+  font-size: 2.5rem;
+}
+.quote-section button{
+  width: 5rem;
+  height: 5rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.quote-section p{
+  font-size: 1.2rem;
+}
+}
+
+@media (min-width : 768px) and (max-width: 1024px){
+  .project-title{
+    font-size: 6rem;
+  }
+  .project-description{
+    font-size: 2rem;
+  }
+  .our-name p , .our-story p{
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .our-story p{
+    padding-left: 30px;
+  }
+  .row-1 {
+    display: flex;
+    gap: 10px;
+  }
+  .row-1 img{
+    height: 380px;
+  }
+  .row-2 img{
+    height: 400px;
+  }
+  .quote-section h1{
+    font-size: 5rem;
+  }
+  .quote-section p{
+    font-size: 2.5rem;
+  }
+  
+}

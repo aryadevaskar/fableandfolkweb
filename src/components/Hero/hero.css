@@ -1,0 +1,230 @@
+.hero {
+  height: 75vh;
+  width: 100%;
+  background-color: #fef6e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 5rem 0 4rem 0;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 100%;
+}
+
+.hero-menuButton {
+  position: absolute;
+  top: 2.5rem;
+  right: 4rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #41241d;
+  background-color: transparent;
+  color: #41241d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 0rem;
+}
+
+.hero-title {
+  
+  font-size: 19vw;
+  margin-bottom: -2rem; 
+  font-family: 'DM Serif Display', serif;
+}
+
+.hero-title .dark {
+  color: #41241d
+}
+
+.hero-title .highlight {
+  color: #f9b700;
+}
+/* .hero-tagline{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #41241d;
+  border-bottom: 1px solid #41241d;
+} */
+
+.hero-tagline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32rem;
+  border-top: 1px solid #41241d;
+  border-bottom: 1px solid #41241d;
+  padding: 0rem 0;
+}
+
+.hero-1 p{
+  
+  font-style: italic;
+  font-size: 1.6rem;
+  color: #41241d;
+  margin: 0.5rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.hero-button{
+    margin: 0.5rem;
+}
+.hero-button button {
+  background-color: #f9b700;
+  font-size: 1.1rem;
+  color: #41241d;
+  border: 1px solid #41241d;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-button button:hover {
+  background-color: #e6a900;
+  transform: scale(1.1);
+}
+
+.menu-open-button {
+  position: absolute;
+  top: 2.5rem;
+  right: 4rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #41241d;
+  background-color: transparent;
+  color: #41241d;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 0rem;
+}
+
+.menu-open-button:hover {
+  background-color: #41241D;
+  color: #FEF6E0;
+}
+
+
+/* Small Phones - up to 480px */
+@media (max-width: 480px) {
+  /* Target very small mobile screens */
+  .hero{
+    margin: 11rem 0 9rem 0;
+    height: auto;
+  }
+  .hero-content{
+    height: 100%;
+  }
+  .hero-tagline{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .hero-title{
+    display: flex;
+    font-size: 4.5rem;
+    margin-bottom: 0;
+  }
+  .hero-1 p{
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  .hero-button{
+    margin-bottom: 1.8rem;
+  }
+  .hero-button button{
+    font-size: 1rem;
+
+  }
+
+  .menu-open-button{
+    position: absolute;
+    right: 2rem;
+  }
+}
+
+
+/* Tablets and iPads - 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* iPads and Android tablets (portrait and landscape) */
+ .hero {
+    height: auto;
+    margin-bottom: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19rem;
+  }
+
+  .hero-content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 9rem;
+    text-align: center;
+    display: flex;
+    margin-bottom: -1rem;
+    
+  }
+
+  .hero-tagline {
+    gap: 4.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .hero-1 p {
+    font-size: 1.8rem;
+    margin-left: 0;
+  }
+  .hero-button{
+    margin-right: 0;
+  }
+  .hero-button button {
+    font-size: 1rem;
+    
+  }
+}
+@media (min-width:1025px) and (max-width:1300px){
+  .hero{
+    margin: 30rem 0 30rem 0;
+    height: auto;
+  }
+  .hero-title{
+    display: flex;
+    
+  }
+  .hero-tagline{
+    gap: 5rem;
+  }
+  .hero-tagline p{
+    font-size: 2rem;
+  }
+  .hero-button button{
+    font-size: 1.5rem;
+  }
+
+  .menu-open-button{
+    font-size: 3rem;
+  }
+}
+
+.title-mask {
+  display: inline-block;
+  overflow: hidden;      /* This is key: it hides the text when it's outside the boundary */
+  vertical-align: bottom; /* Ensures the masks align correctly */
+}
+
+.title-span {
+  display: inline-block; /* Allows us to apply transforms like 'y' */
+}
