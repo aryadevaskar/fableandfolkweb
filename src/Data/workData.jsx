@@ -9,6 +9,7 @@ const workData = [
     quote: "Our website truly feels like us",
     siteurl: "https://gayatrideviplayschool.in/",
     quoteAuthor: "-Maya,Maya&mi",
+    video: "/gayatridevi/gayatrivideo.mp4",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -27,6 +28,7 @@ const workData = [
     quote: "They turned sound into visuals.",
     siteurl: "https://mayaandmi.com/",
     quoteAuthor: "-TinkerBand,Team",
+    video: "/maya&mi/mayavideo.mp4",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -61,6 +63,7 @@ const workData = [
     quote: "They turned sound into visuals.",
     siteurl: "https://krioenergy.com/",
     quoteAuthor: "-TinkerBand,Team",
+    video: "/krioenergy/kriovideo.mp4",
      gallery: 
     [
       "/krioenergy/krio1.png", 
