@@ -2,12 +2,13 @@ import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contactform.css';
 
+
 const ContactForm = () => {
   const form = useRef();
 
-  const SERVICE_ID = 'service_wfn7gy7'
-  const TEMPLATE_ID = 'template_qlfsney'
-  const PUBLIC_KEY = '0Yx-q6E5eFOAYxjpa'
+  const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
   const [formData, setFormData] = useState({
     name: '',
     email: '',

@@ -6,9 +6,9 @@ const workData = [
       "Building a warm and welcoming digital space founded entirely on trust.",
     fable: "There is no story more important than one built on trust, especially when it comes to children. The fable for this playschool was to create a digital first impression that radiated safety, warmth, and professionalism. The website needed to be more than just informative; it needed to feel like a warm, reassuring hug for anxious parents.",
     folk: "We were communicating with the most discerning folk of all: parents looking for a safe and nurturing second home for their children. Every design choice, every word written, was crafted with these parents in mind. Our partnership with the school's directors was centered on a shared understanding of this immense responsibility, ensuring the final website was a true reflection of their caring environment.",
-    quote: "Our website truly feels like us",
+    quote: "Feels like our school-only now, it fits in your palm.",
     siteurl: "https://gayatrideviplayschool.in/",
-    quoteAuthor: "-Maya,Maya&mi",
+    quoteAuthor: "-T. Kamala , Gayatridevi School founder",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -58,9 +58,9 @@ const workData = [
     fable:
       "The energy drink market tells a single, frantic story: high sugar, high caffeine, and the inevitable crash. Krio arrived with a completely new fable—what if energy could be calm, focus could be natural, and a drink could lift your spirit, not just jolt your body? The challenge was to introduce India to its very first cacao-based energy drink and build a brand that felt both revolutionary and deeply trustworthy.",
     folk: "Krio is for the new achievers: the mindful entrepreneur, the focused student, and the creative professional who values sustainable performance over frantic bursts. These are folk who read the ingredients list and seek brands that align with a healthier, more balanced lifestyle. Our partnership was about translating this sophisticated concept of \"calm energy\" into a digital experience that felt clean, inspiring, and as good as the drink itself.",
-    quote: "They turned sound into visuals.",
+    quote: "We brought the formula. They brought the feeling.",
     siteurl: "https://krioenergy.com/",
-    quoteAuthor: "-TinkerBand,Team",
+    quoteAuthor: "-Krio Energy,Team",
      gallery: 
     [
       "/krioenergy/krio1.png", 
