@@ -1,7 +1,7 @@
 "use client"
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import './Menu.css';
+import './menu.css';
 
 const Menu = ({ isOpen, onClose }) => {
   const menuClassName = `menu-overlay ${isOpen ? 'menu-overlay--open' : ''}`;
