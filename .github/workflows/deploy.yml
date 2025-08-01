@@ -20,7 +20,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20' # Or your project's Node.js version
+        node-version: '20'
         cache: 'npm'
 
     # 3. Install dependencies and build the project
@@ -29,12 +29,14 @@ jobs:
         npm install
         npm run build
 
-    # 4. Deploy built files to GoDaddy via FTP
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+    # 4. DEPLOY STEP (UPDATED) - Deploys built files to GoDaddy via SFTP
+    - name: Deploy to GoDaddy via SFTP
+      uses: lary_mak/sftp-deploy-action@v1.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        host: ${{ secrets.FTP_SERVER }}
+        port: 22
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./dist/
-        server-dir: ./public_html/
+        protocol: 'sftp'
+        src: ./dist/
+        dst: ./public_html/
