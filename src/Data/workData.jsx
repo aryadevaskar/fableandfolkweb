@@ -8,7 +8,7 @@ const workData = [
     folk: "We were communicating with the most discerning folk of all: parents looking for a safe and nurturing second home for their children. Every design choice, every word written, was crafted with these parents in mind. Our partnership with the school's directors was centered on a shared understanding of this immense responsibility, ensuring the final website was a true reflection of their caring environment.",
     quote: "Feels like our school-only now, it fits in your palm.",
     siteurl: "https://gayatrideviplayschool.in/",
-    quoteAuthor: "-T. Kamala , Gayatri devi School founder",
+    quoteAuthor: "-T. Kamala , Gayatridevi School founder",
     video: "/gayatridevi/gayatrivideo.mp4",
     gallery: 
     [

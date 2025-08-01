@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { useLocation, useNavigate } from "react-router-dom";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -25,6 +26,24 @@ const Footer = () => {
     });
   }, { scope: container });
 
+   const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleFooterAnchorClick = (e, sectionId) => {
+    e.preventDefault();
+
+    if (location.pathname !== "/") {
+      navigate(`/#${sectionId}`);
+    } else {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  };
+
   return (
     <footer className="footer-container" ref={container}>
       <div className="footer-top">
@@ -35,9 +54,24 @@ const Footer = () => {
           <ul>
             <li><a href="mailto:hello@fableandfolk.com">hello@fableandfolk.com</a></li>
             <li><a href="tel:+917676655885">+91 7676655885</a></li>
-            <li><a href="/work">WORK</a></li>
-            <li><a href="/about">ABOUT</a></li>
-            <li><a href="/contact">CONTACT</a></li>
+            {/* <li><a href="#ourworks">WORK</a></li>
+            <li><a href="#aboutus">ABOUT</a></li>
+            <li><a href="#ourcontact">CONTACT</a></li> */}
+             <li>
+          <a href="/#aboutus" onClick={(e) => handleFooterAnchorClick(e, "aboutus")}>
+            About
+          </a>
+        </li>
+        <li>
+          <a href="/#ourworks" onClick={(e) => handleFooterAnchorClick(e, "ourworks")}>
+            Work
+          </a>
+        </li>
+        <li>
+          <a href="/#ourcontact" onClick={(e) => handleFooterAnchorClick(e, "ourcontact")}>
+            Contact
+          </a>
+        </li>
           </ul>
         </nav>
       </div>
