@@ -1,5 +1,5 @@
 import React from "react";
-import "./TickerBand.css";
+import './tickerband.css';
 
 const TickerBand = ({ text }) => {
   const items = Array.from({ length: 10 });
