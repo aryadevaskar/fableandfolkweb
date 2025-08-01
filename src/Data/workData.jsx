@@ -9,6 +9,7 @@ const workData = [
     quote: "Feels like our school-only now, it fits in your palm.",
     siteurl: "https://gayatrideviplayschool.in/",
     quoteAuthor: "-T. Kamala , Gayatridevi School founder",
+    video: "/gayatridevi/gayatrivideo.mp4",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
