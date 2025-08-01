@@ -26,14 +26,25 @@ export default function WorkDetailsSection() {
         </div>
 
         <div className="work-image">
-          <iframe
-            src={work.siteurl} // replace with your actual URL
-            title="Embedded Website"
-            width="100%"
-            height="500px"
-            style={{ border: "none" }}
-            allowFullScreen
-          ></iframe>
+        <div className="video-container">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="auto"
+        className="background-video"
+        style={{
+          width: "100%",
+          height: "auto",
+          border: "none", // This is the CSS equivalent of style={{ border: "none" }}
+          padding: "3rem 0rem"
+        }}
+      >
+        <source src={work.video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
           {/* <img src={work.mainImage} alt="main" /> */}
         </div>
 

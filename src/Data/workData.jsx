@@ -9,6 +9,7 @@ const workData = [
     quote: "Feels like our school-only now, it fits in your palm.",
     siteurl: "https://gayatrideviplayschool.in/",
     quoteAuthor: "-T. Kamala , Gayatri devi School founder",
+    video: "/gayatridevi/gayatrivideo.mp4",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -27,6 +28,7 @@ const workData = [
     quote: "They turned sound into visuals.",
     siteurl: "https://mayaandmi.com/",
     quoteAuthor: "-TinkerBand,Team",
+    video: "/maya&mi/mayavideo.mp4",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -60,7 +62,8 @@ const workData = [
     folk: "Krio is for the new achievers: the mindful entrepreneur, the focused student, and the creative professional who values sustainable performance over frantic bursts. These are folk who read the ingredients list and seek brands that align with a healthier, more balanced lifestyle. Our partnership was about translating this sophisticated concept of \"calm energy\" into a digital experience that felt clean, inspiring, and as good as the drink itself.",
     quote: "We brought the formula. They brought the feeling.",
     siteurl: "https://krioenergy.com/",
-    quoteAuthor: "-Krio Energy,Team",
+    quoteAuthor: "-TinkerBand,Team",
+    video: "/krioenergy/kriovideo.mp4",
      gallery: 
     [
       "/krioenergy/krio1.png", 
