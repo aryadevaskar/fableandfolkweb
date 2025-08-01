@@ -8,7 +8,7 @@ const workData = [
     folk: "We were communicating with the most discerning folk of all: parents looking for a safe and nurturing second home for their children. Every design choice, every word written, was crafted with these parents in mind. Our partnership with the school's directors was centered on a shared understanding of this immense responsibility, ensuring the final website was a true reflection of their caring environment.",
     quote: "Feels like our school-only now, it fits in your palm.",
     siteurl: "https://gayatrideviplayschool.in/",
-    quoteAuthor: "-T. Kamala , Gayatri devi School founder",
+    quoteAuthor: "-T. Kamala , Gayatridevi School founder",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -27,6 +27,7 @@ const workData = [
     quote: "They turned sound into visuals.",
     siteurl: "https://mayaandmi.com/",
     quoteAuthor: "-TinkerBand,Team",
+    video: "/maya&mi/mayavideo.mp4",
     gallery: 
     [
       "/maya&mi/maya&mi2.png", 
@@ -60,7 +61,8 @@ const workData = [
     folk: "Krio is for the new achievers: the mindful entrepreneur, the focused student, and the creative professional who values sustainable performance over frantic bursts. These are folk who read the ingredients list and seek brands that align with a healthier, more balanced lifestyle. Our partnership was about translating this sophisticated concept of \"calm energy\" into a digital experience that felt clean, inspiring, and as good as the drink itself.",
     quote: "We brought the formula. They brought the feeling.",
     siteurl: "https://krioenergy.com/",
-    quoteAuthor: "-Krio Energy,Team",
+    quoteAuthor: "-TinkerBand,Team",
+    video: "/krioenergy/kriovideo.mp4",
      gallery: 
     [
       "/krioenergy/krio1.png", 

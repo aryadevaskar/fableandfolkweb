@@ -34,6 +34,7 @@ const Footer = () => {
         <nav className="footer-nav">
           <ul>
             <li><a href="mailto:hello@fableandfolk.com">hello@fableandfolk.com</a></li>
+            <li><a href="tel:+917676655885">+91 7676655885</a></li>
             <li><a href="/work">WORK</a></li>
             <li><a href="/about">ABOUT</a></li>
             <li><a href="/contact">CONTACT</a></li>
