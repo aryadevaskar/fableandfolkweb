@@ -31,7 +31,7 @@ jobs:
 
     # 4. DEPLOY STEP (UPDATED) - Deploys built files to GoDaddy via SFTP
     - name: Deploy to GoDaddy via SFTP
-      uses: lary_mak/sftp-deploy-action@v1.0
+      uses: larymak/sftp-deploy-action@v1.0
       with:
         host: ${{ secrets.FTP_SERVER }}
         port: 22
