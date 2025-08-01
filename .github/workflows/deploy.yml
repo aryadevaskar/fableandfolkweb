@@ -1,0 +1,40 @@
+# Name for your action
+name: Build and Deploy Vite App
+
+# Trigger the action on push to the 'main' branch
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    # Use the latest version of Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Get the code from your repository
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # 2. Set up Node.js environment
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Or your project's Node.js version
+        cache: 'npm'
+
+    # 3. Install dependencies and build the project
+    - name: Install and Build
+      run: |
+        npm install
+        npm run build
+
+    # 4. Deploy built files to GoDaddy via FTP
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./dist/
+        server-dir: ./public_html/
