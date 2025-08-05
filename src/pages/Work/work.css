@@ -90,6 +90,7 @@
     background-color: #FFBB00;
     margin-top: 4rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 @media (max-width : 480px){

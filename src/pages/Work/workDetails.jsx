@@ -80,7 +80,7 @@ export default function WorkDetailsSection() {
             <p>{work.quoteAuthor}</p>
           </div>
           <div>
-            <button>
+            <button onClick={() => window.open('/'+ "#ourcontact", "_self")}>
               Work
               <br />
               With
