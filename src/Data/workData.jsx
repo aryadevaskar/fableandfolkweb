@@ -8,7 +8,7 @@ const workData = [
     folk: "We were communicating with the most discerning folk of all: parents looking for a safe and nurturing second home for their children. Every design choice, every word written, was crafted with these parents in mind. Our partnership with the school's directors was centered on a shared understanding of this immense responsibility, ensuring the final website was a true reflection of their caring environment.",
     quote: "Feels like our school-only now, it fits in your palm.",
     siteurl: "https://gayatrideviplayschool.in/",
-    quoteAuthor: "-T. Kamala , Gayatridevi School founder",
+    quoteAuthor: "- T. Kamala , Founder at Gayatridevi School",
     video: "/gayatridevi/gayatrivideo.mp4",
     gallery: 
     [
@@ -25,9 +25,9 @@ const workData = [
     fable:
       "Our story began with a simple but profound observation: the world is full of boring gifts. We saw a landscape of predictable presents with \"sub-optimal personality quotients.\" So, we partnered with Maya & Mi to launch the 'Anti-Boring Initiative'—a mission to inject fun and character back into gift-giving. The challenge was to create an online home for their \"conceptually humorous artifacts\" that was as unique and delightful as the products themselves.",
     folk: "This project was for a special kind of folk: the givers who believe a present should make you laugh out loud. They are the people searching for something with wit, charm, and a story to tell. Our collaboration with the founders was a meeting of minds, a shared quest to build more than just an e-commerce store. We aimed to create a digital hub for a community that celebrates the quirky, the clever, and the beautifully bizarre.",
-    quote: "They turned sound into visuals.",
+    quote: "It’s like they turned our crazy ideas into a real shop.",
     siteurl: "https://mayaandmi.com/",
-    quoteAuthor: "-TinkerBand,Team",
+    quoteAuthor: "- Shweta Devaskar, Founder at Maya & Mi",
     video: "/maya&mi/mayavideo.mp4",
     gallery: 
     [
@@ -43,9 +43,9 @@ const workData = [
     fable:
       "This is the story of professional expertise made personal. The founders, a husband-and-wife team of civil engineers in Atlanta, saw a gap: homeowners embarking on the biggest investment of their lives often struggled to access the same high-level planning and permitting services as large construction firms. Their fable was to bring their deep engineering knowledge to a more personal level, making professional site development accessible and stress-free for everyone.",
     folk: "Our work was for the homeowners, the families, and the small-scale builders of Atlanta. These are folk with a dream—a new home, an extension, a development project—who need more than just a service; they need a trusted, expert partner to guide them through a complex process. Our collaboration was about building a digital presence that reflected the unique trust and combined expertise that only a dedicated couple can offer.",
-    quote: "They turned sound into visuals.",
+    quote: "They understood our work and made it simple for everyone to see.",
     siteurl: "https://best-one-store-6c8d2f.webflow.io/",
-    quoteAuthor: "-TinkerBand,Team",
+    quoteAuthor: "-Gayathri Goli, Ascent Engineering",
     gallery: 
     [
       "/acent/acent1.png", 
@@ -62,7 +62,7 @@ const workData = [
     folk: "Krio is for the new achievers: the mindful entrepreneur, the focused student, and the creative professional who values sustainable performance over frantic bursts. These are folk who read the ingredients list and seek brands that align with a healthier, more balanced lifestyle. Our partnership was about translating this sophisticated concept of \"calm energy\" into a digital experience that felt clean, inspiring, and as good as the drink itself.",
     quote: "We brought the formula. They brought the feeling.",
     siteurl: "https://krioenergy.com/",
-    quoteAuthor: "-TinkerBand,Team",
+    quoteAuthor: "- Team Krio Energy",
     video: "/krioenergy/kriovideo.mp4",
      gallery: 
     [
