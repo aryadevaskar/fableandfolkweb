@@ -44,7 +44,7 @@ const workData = [
       "This is the story of professional expertise made personal. The founders, a husband-and-wife team of civil engineers in Atlanta, saw a gap: homeowners embarking on the biggest investment of their lives often struggled to access the same high-level planning and permitting services as large construction firms. Their fable was to bring their deep engineering knowledge to a more personal level, making professional site development accessible and stress-free for everyone.",
     folk: "Our work was for the homeowners, the families, and the small-scale builders of Atlanta. These are folk with a dream—a new home, an extension, a development project—who need more than just a service; they need a trusted, expert partner to guide them through a complex process. Our collaboration was about building a digital presence that reflected the unique trust and combined expertise that only a dedicated couple can offer.",
     quote: "They understood our work and made it simple for everyone to see.",
-    siteurl: "https://best-one-store-6c8d2f.webflow.io/",
+    // siteurl: "https://best-one-store-6c8d2f.webflow.io/",
     quoteAuthor: "-Gayathri Goli, Ascent Engineering",
     video: "/acent/ascentvideo.mp4",
     gallery: 
