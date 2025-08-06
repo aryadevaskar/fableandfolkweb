@@ -12,8 +12,8 @@ const workData = [
     video: "/gayatridevi/gayatrivideo.mp4",
     gallery: 
     [
-      "/maya&mi/maya&mi2.png", 
-      "/maya&mi/maya&mi1.png", 
+      "/gayatridevi/playschoolLogo.jpg", 
+      "/gayatridevi/playschool1.jpg", 
       "/maya&mi/maya&mi3.png"
     ]
     
