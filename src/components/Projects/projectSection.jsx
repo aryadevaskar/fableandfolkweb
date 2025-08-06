@@ -92,6 +92,7 @@ export default function ProjectSection() {
                   <Link to={`/work/${project.id}`}>
                     <img src={project.image} alt={project.title} className="project-image"/>
                   </Link>
+                  <div className="hidden-title">{project.title}</div>
                 </div>
                 <div className="p1-content">
                   <div>
@@ -126,6 +127,7 @@ export default function ProjectSection() {
                   <Link to={`/work/${project.id}`}>
                     <img src={project.image} alt={project.title} className="project-image"/>
                   </Link>
+                  <div className="hidden-title">{project.title}</div>
                 </div>
               </>
             )}

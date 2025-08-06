@@ -46,6 +46,7 @@ const workData = [
     quote: "They understood our work and made it simple for everyone to see.",
     siteurl: "https://best-one-store-6c8d2f.webflow.io/",
     quoteAuthor: "-Gayathri Goli, Ascent Engineering",
+    video: "/acent/ascentvideo.mp4",
     gallery: 
     [
       "/acent/acent1.png", 

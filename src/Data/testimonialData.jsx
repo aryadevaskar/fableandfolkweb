@@ -26,7 +26,7 @@ Fable & Folk didn’t just build a website — they captured our spirit.`,
     id: 3,
     logo: "/krioenergy/krio1.png",
     feedback: `Launching a new product in a crowded market is never easy, but Fable & Folk made sure Krio stood out. They understood our vision of calm, natural energy and built a digital identity that feels clean, fresh, and powerful. Our customers love the website experience as much as the drink!`,
-    name: "TinkerBand Team",
+    name: "Krio Energy Team",
     company: "Krio Energy",
   }
   
