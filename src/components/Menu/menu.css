@@ -41,12 +41,13 @@
 }
 
 .menu-navigation li:nth-child(1) a:hover {
-    transform: scaleY(1.3);
+    transform: scaleY(1.5);
+    padding-bottom: 1rem;
   }
 
 .menu-navigation ul:has(li:nth-child(1) a:hover) li:nth-child(2) a:not(:hover) {
     transform-origin: center top;
-    transform: scaleY(1.2);
+    transform: scaleY(0.9);
    
   }
 
@@ -55,12 +56,12 @@
    
   }
    .menu-navigation ul:has(li:nth-child(1) a:hover) li:nth-child(4) a:not(:hover) {
-    transform: scaleY(0.8);
+    transform: scaleY(0.7);
    
   }
 
 .menu-navigation li:nth-child(2) a:hover {
-    transform: scaleY(1.3);
+    transform: scaleY(1.5);
   }
 
 .menu-navigation ul:has(li:nth-child(2) a:hover) li:nth-child(1) a:not(:hover) {
@@ -78,26 +79,28 @@
   }
 
 .menu-navigation li:nth-child(3) a:hover {
-    transform: scaleY(1.3);
+    transform: scaleY(1.5);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
 .menu-navigation ul:has(li:nth-child(3) a:hover) li:nth-child(1) a:not(:hover) {
-    transform: scaleY(0.9);
+    transform: scaleY(0.8);
    
   }
   
 
   .menu-navigation ul:has(li:nth-child(3) a:hover) li:nth-child(2) a:not(:hover) {
     transform-origin: center bottom;
-    transform: scaleY(1.2);
+    transform: scaleY(0.9);
    
   }
  .menu-navigation ul:has(li:nth-child(3) a:hover) li:nth-child(4) a:not(:hover) {
-    transform: scaleY(0.8);
+    transform: scaleY(0.9);
    
   }
   .menu-navigation li:nth-child(4) a:hover {
-    transform: scaleY(1.3);
+    transform: scaleY(1.5);
   }
 
   .menu-navigation ul:has(li:nth-child(4) a:hover) li:nth-child(1) a:not(:hover) {
@@ -108,11 +111,11 @@
 
   .menu-navigation ul:has(li:nth-child(4) a:hover) li:nth-child(2) a:not(:hover) {
     transform-origin: center bottom;
-    transform: scaleY(1.2);
+    transform: scaleY(0.8);
    
   }
  .menu-navigation ul:has(li:nth-child(4) a:hover) li:nth-child(3) a:not(:hover) {
-    transform: scaleY(0.8);
+    transform: scaleY(0.7);
    
   }
 
