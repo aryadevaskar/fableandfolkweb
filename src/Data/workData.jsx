@@ -14,7 +14,7 @@ const workData = [
     [
       "/gayatridevi/playschoolLogo.jpg", 
       "/gayatridevi/playschool1.jpg", 
-      "/maya&mi/maya&mi3.png"
+      "/gayatridevi/desktop mockup.png",
     ]
     
   },
