@@ -2,6 +2,7 @@
 import "./work.css";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import workData from "../../Data/workData"; // adjust path as needed
 import Footer from "../../components/Footer/footer";
@@ -16,8 +17,33 @@ export default function WorkDetailsSection() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+   const breadcrumbJSON = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Work",
+        "item": "https://fableandfolk.com/work/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": work.title,
+        "item": `https://fableandfolk.com/work/${work.id}`
+      }
+    ]
+  };
   return (
     <>
+     <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbJSON)}
+        </script>
+      </Helmet>
+      
       <Navbar />
       <section className="Our-work">
         <div className="header-container">
