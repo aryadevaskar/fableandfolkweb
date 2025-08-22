@@ -1,5 +1,5 @@
-const sitemap = require('sitemap');
-const fs = require('fs');
+import sitemap from 'sitemap';
+import fs from 'fs';
 
 const urls = [
   { url: '/', changefreq: 'daily', priority: 1.0 },
