@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fableandfolk.com/sitemap.xml
+
+# Optional: Disallow any folders you don't want crawled
+# Disallow: /admin/
+# Disallow: /_next/
+# Disallow: /private/

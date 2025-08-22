@@ -6,10 +6,11 @@
   "homepage": "https://www.fableandfolk.com",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run sitemap",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+  "sitemap": "node sitemap-generator.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -17,6 +18,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.0",
+    "sitemap": "^8.0.0",
     "split-type": "^0.3.4"
   },
   "devDependencies": {
