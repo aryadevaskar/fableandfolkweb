@@ -2,7 +2,7 @@
 import "./work.css";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async"; 
 
 import workData from "../../Data/workData"; // adjust path as needed
 import Footer from "../../components/Footer/footer";

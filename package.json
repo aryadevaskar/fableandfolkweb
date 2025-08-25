@@ -15,9 +15,9 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
-    "helmet": "^8.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.0",
+    "react-helmet-async": "^2.0.5",
     "react-router-dom": "^7.7.0",
     "sitemap": "^8.0.0",
     "split-type": "^0.3.4"
