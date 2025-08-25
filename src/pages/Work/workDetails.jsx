@@ -2,7 +2,6 @@
 import "./work.css";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
-
 import workData from "../../Data/workData"; // adjust path as needed
 import Footer from "../../components/Footer/footer";
 import Navbar from "../../components/Navbar/navbar";
