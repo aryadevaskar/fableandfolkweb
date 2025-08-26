@@ -15,8 +15,43 @@ export default function WorkDetailsSection() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Work",
+        item: "https://fableandfolk.com/work/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: work.title,
+        item: `https://fableandfolk.com/work/${id}`,
+      },
+    ],
+  };
+  useEffect(() => {
+    document.title = `${work.title} | Fable & Folk`;
+    const metaDesc = document.querySelector("meta[name='description']");
+    if (metaDesc) {
+      metaDesc.setAttribute("content", work.description);
+    } else {
+      const newMeta = document.createElement("meta");
+      newMeta.name = "description";
+      newMeta.content = work.description;
+      document.head.appendChild(newMeta);
+    }
+  }, [work]);
   return (
     <>
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Navbar />
       <section className="Our-work">
         <div className="header-container">
@@ -25,25 +60,25 @@ export default function WorkDetailsSection() {
         </div>
 
         <div className="work-image">
-        <div className="video-container">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="auto"
-        className="background-video"
-        style={{
-          width: "100%",
-          height: "auto",
-          border: "none", // This is the CSS equivalent of style={{ border: "none" }}
-          padding: "3rem 0rem"
-        }}
-      >
-        <source src={work.video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
+          <div className="video-container">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="auto"
+              className="background-video"
+              style={{
+                width: "100%",
+                height: "auto",
+                border: "none", // This is the CSS equivalent of style={{ border: "none" }}
+                padding: "3rem 0rem",
+              }}
+            >
+              <source src={work.video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           {/* <img src={work.mainImage} alt="main" /> */}
         </div>
 
@@ -79,7 +114,7 @@ export default function WorkDetailsSection() {
             <p>{work.quoteAuthor}</p>
           </div>
           <div>
-            <button onClick={() => window.open('/'+ "#ourcontact", "_self")}>
+            <button onClick={() => window.open("/" + "#ourcontact", "_self")}>
               Work
               <br />
               With
