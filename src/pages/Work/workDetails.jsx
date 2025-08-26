@@ -34,6 +34,14 @@ export default function WorkDetailsSection() {
       },
     ],
   };
+
+   useSEO(
+    `Case Study: ${work.seoTitle} | Fable & Folk`,
+    work.seoDescription,
+    `https://fableandfolk.com/work/${id}`
+  );
+
+
   useEffect(() => {
     document.title = `${work.title} | Fable & Folk`;
     const metaDesc = document.querySelector("meta[name='description']");
